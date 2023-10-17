@@ -1,0 +1,54 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header h1{
+  margin-right: 20px;
+}
+.todo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todocard input{
+height: 2rem;
+width: 15rem;
+margin-top: 15px;
+margin-right: 25px;
+padding: 10px;
+}
+.todocard{
+  height: 450px;
+  width: 360px;
+  border: solid white 5px;
+  text-align: center;
+}
+.tasks{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+  margin: 20px;
+  height: 2.6rem;
+}
+.tasks p{
+  width: 80%;
+
+}
+.tasks .remove{
+  width: 20%;
+  color: red;
+}
+.tasks:hover{
+  background: none;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+}
+button {
+  padding: 8px;
+  color: red;
+  background-color: white;
+  font-family: 'Poppins',sans-serif;
+}
